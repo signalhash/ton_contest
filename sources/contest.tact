@@ -35,10 +35,6 @@ struct AddAllocationBody {
 
 const MIN_RENT_RESERVE: Int = 50000000;
 
-const OP_ALLOC_V1: Int = 0xA110C8;
-const OP_WITHDRAW_V1: Int = 0x5717D2;
-const OP_MASTER_V1: Int = 0x555CDF;
-
 contract PayoutVault with Ownable {
     owner: Address;
     // -------- Storage --------
